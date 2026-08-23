@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 에디터 (머신마다 인터프리터 경로가 달라 공유하지 않는다)
+.vscode/
+
+# level3 실행 시 생성되는 산출물
+mini-harness/trace.jsonl
